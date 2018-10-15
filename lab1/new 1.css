@@ -1,0 +1,43 @@
+body {
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+h1 {
+ text-align: center;
+ font-family: arial;
+ font-size: 20pt;
+ font-weight: bold;
+ color: blue;
+ background: yellow;
+}
+p {
+ font-size: 12pt;
+ text-align: justify;
+}
+object {
+	width:100%;
+	height:200px;
+}
+nav {
+	background-color:#DDD;
+	height:200px;
+	width:33%;
+	float:left;
+}
+footer {
+	background-color:#CCC;
+	clear:both;
+	text-align:center;
+}
+section {
+	 background-color:#FFF;
+	 height:200px;
+	 width:33%;
+	 float:left;
+}
+.klasaprztycisku{ 
+}
+
+
