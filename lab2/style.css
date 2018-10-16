@@ -1,0 +1,252 @@
+#header {
+ background-color:black;
+ text-align:center;
+ font-size:1.6em;
+ line-height:1.5em;
+ color:white;
+}
+#left {
+ float:left;
+ width:25%;
+ font-size:1em;
+ line-height:1.5em;
+ background-color:red;
+}
+#last {
+ float:left;
+ width:25%;
+ font-size:1em;
+ line-height:1.5em;
+ background-color:yellow;
+}
+#left p {
+ border:1px solid black;
+ border-left:none;
+ margin:15px 0;
+ padding:15px;
+}
+#center {
+ float:left;
+ width:50%;
+ font-size:1.2em;
+ line-height:1.5em;
+ background-color:green;
+}
+#center p {
+ margin:15px 0;
+ padding:15px;
+}
+#right {
+ float:left;
+ width:25%;
+ font-size:1em;
+ line-height:1.5em;
+ background-color:blue;
+}
+#right p {
+ border:1px solid black;
+ border-right:none;
+ margin:15px 0;
+ padding:15px;
+}
+#footer {
+ clear:both;
+ background-color:black;
+ text-align:center;
+ font-size:1.4em;
+ line-height:1.5em;
+ color:white;
+}
+@media screen and (max-width:400px) {
+ #container {
+ font-size:15px;
+ }
+ #left, #center, #right {
+ float:none;
+ width:auto;
+ margin:0px;
+ height:100px;
+ }
+ #left p, #right p {
+ }
+ #menu {
+ float:none;
+ width:auto;
+ margin:0px;
+ height:100px;
+ }
+ #menu {
+ float:none;
+ width:auto;
+ margin:0px;
+ height:auto;
+ }
+}
+@media screen and (min-width:400px) and (max-width:600px) {
+ #container {
+ font-size:20px;
+ }
+ #center {
+ float:left;
+ width:50%;
+ margin:0px;
+ height:100px;
+ }
+ #left {
+ float:left;
+ width:100%;
+ margin:0px;
+ height:100px;
+ }
+ #right {
+ float:left;
+ width:50%;
+ margin:0px;
+ height:100px;
+ }
+  #menu {
+ float:none;
+ width:auto;
+ margin:0px;
+ height:auto;
+ }
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+ #container {
+ font-size:30px;
+ }
+ #center {
+ float:left;
+ width:75%;
+ margin:0px;
+ height:100px;
+ }
+ #left {
+ float:left;
+ width:25%;
+ margin:0px;
+ height:100px;
+ }
+ #right {
+ float:left;
+ width:100%;
+ margin:0px;
+ height:100px;
+ }
+ #menu {
+ float:none;
+ width:100%;
+ margin:0px;
+ height:100px;
+ }
+ #menu p{
+ float:left;
+ margin: 15px;
+ }
+}
+@media screen and (min-width:800px) and (max-width:1000px) {
+ #container {
+ font-size:30px;
+ }
+ #center {
+ float:right;
+ width:75%;
+ margin:0px;
+ height:100px;
+ }
+ #left {
+ float:left;
+ width:25%;
+ margin:0px;
+ height:50px;
+ }
+ #right {
+ float:left;
+ width:25%;
+ margin:0px;
+ height:50px;
+ }
+ #menu {
+ float:none;
+ width:100%;
+ margin:0px;
+ height:100px;
+ }
+ #menu p{
+ float:left;
+ margin: 15px;
+ }
+}
+@media screen and (min-width:1000px) and (max-width:1200px) {
+ #container {
+ font-size:35px;
+ }
+ #center {
+ float:left;
+ width:60%;
+ margin:0px;
+ height:100px;
+ }
+ #left {
+ float:left;
+ width:20%;
+ margin:0px;
+ height:100px;
+ }
+ #right {
+ float:left;
+ width:20%;
+ margin:0px;
+ height:100px;
+ }
+ #menu {
+ float:none;
+ width:100%;
+ margin:0px;
+ height:100px;
+ }
+ #menu p{
+ float:left;
+ margin: 15px;
+ }
+}
+@media screen and (min-width:1200px) {
+ #container {
+ font-size:45px;
+ }
+ #center {
+ float:left;
+ width:40%;
+ margin:0px;
+ height:100px;
+ }
+ #left {
+ float:left;
+ width:20%;
+ margin:0px;
+ height:100px;
+ }
+ #right {
+ float:left;
+ width:20%;
+ margin:0px;
+ height:100px;
+ }
+ #last {
+ float:left;
+ width:20%;
+ margin:0px;
+ height:100px;
+ background-image:url("./pobrane.jpg")
+ }
+ #menu {
+ float:none;
+ width:100%;
+ margin:0px;
+ height:100px;
+ }
+ #menu p{
+ float:left;
+ margin: 15px;
+ }
+ }
