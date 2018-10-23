@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+function myFunction() {
+  try {
+    a = Math.sqrt5(-4);
+    document.write(a);
+  }
+  catch(e) {
+    alert("Error" + "\n" + e.description);
+  }
+  finally {
+    alert("Finally");
+  }
+}
+</script>
+</head>
+<body>
+<input type="button" value="Oblicz" onclick="myFunction()" />
+</body>
+</html>

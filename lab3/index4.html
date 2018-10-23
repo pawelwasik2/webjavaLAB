@@ -1,0 +1,15 @@
+<html>
+<head><title>Data w pasku statusu</title>
+<script type="text/javascript">
+function runClock() {
+ window.setTimeout("runClock()", 1000);
+ var today = new Date();
+ var display = today.toLocaleString();
+ window.status = display;
+}
+</script>
+</head>
+<body onload="runClock()">
+<p>Popatrz na pasek statusu!</p>
+</body>
+</html>

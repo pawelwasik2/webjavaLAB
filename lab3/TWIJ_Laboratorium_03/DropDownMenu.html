@@ -1,0 +1,21 @@
+<html>
+<head><title>DropDownMenu</title>
+<script type="text/javascript">
+function goToURL() {
+   window.open().location=document.getElementById("menu").value
+}
+</script>
+</head>
+
+<body>
+<form>
+<select id="menu" onchange="goToURL()">
+  <option value="">Wybierz link</option>
+  <option value="http://java.prz.edu.pl">Technologie sieci Web</option>
+  <option value="http://www.prz.edu.pl">Politechnika Rzeszowska</option>
+  <option value="http://www.rzeszow.pl">Strona Rzeszowa</option>
+</select>
+</form>
+</body>
+</html>
+

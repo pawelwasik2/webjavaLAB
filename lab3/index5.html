@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>AnimatedButtonsMenu</title>
+<script type="text/javascript">
+function changeButton(buttonID, imageName, statusInfo) {
+ document.images[buttonID].src="./" + imageName;
+ window.status = statusInfo;
+}
+</script>
+</head>
+<body bgcolor="white">
+<img src="b1up.gif" id="b1" width="105" height="24"
+ onclick="window.open('http://onet.pl');"
+ onmouseover="changeButton('b1','b1down.gif','Button 1');"
+ onmouseout="changeButton('b1', 'b1up.gif', ' ')" />
+<img src="b2up.gif" id="b2" width="105" height="24"
+ onclick="window.location.href = 'http://wp.pl';"
+ onmouseover="changeButton('b2','b2down.gif','Button 2');"
+ onmouseout="changeButton('b2', 'b2up.gif', ' ')" />
+</body>
+</html>

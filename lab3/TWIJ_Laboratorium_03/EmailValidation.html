@@ -1,0 +1,25 @@
+<html>
+<head><title>EmailValidation</title>
+<script type="text/javascript">
+function emailValidation(id) {
+  apos=id.value.indexOf("@");
+  dotpos=id.value.lastIndexOf(".");
+  lastpos=id.value.length-1;
+  if (apos<1 || dotpos-apos<2 || lastpos-dotpos>3 || lastpos-dotpos<2) { 
+     alert("E-mail Invalid !");}
+  else {
+     alert("E-mail OK!");
+  }
+}
+</script> 
+</head>
+<body>
+Podaj e-mail:<p>
+<form>
+<input type="text" size="20" onChange="emailValidation(this);">
+</form>
+</body>
+</html>
+
+
+

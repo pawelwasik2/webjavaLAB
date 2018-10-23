@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+table {background:brown;}
+tr {background:yellow;}
+a {color:black;text-decoration:none;}
+a:hover {color:red;}
+td.menu {background:lightyellow}
+table.menu {position:absolute; visibility:hidden;}
+</style>
+<script type="text/javascript">
+function showMenu(idMenu) {
+   document.getElementById(idMenu).style.visibility="visible"
+}
+function hideMenu(idMenu) {
+   document.getElementById(idMenu).style.visibility="hidden"
+}
+</script>
+</head>
+<body>
+<table width="200px">
+ <tr>
+   <td onmouseover="showMenu('menu1')" onmouseout="hideMenu('menu1')">
+     <div>Menu 1</div>
+     <table class="menu" id="menu1" width="120">
+       <tr><td class="menu"><a href="http://www.prz.edu.pl" target="_blank">Podmenu 11</a></td></tr>
+       <tr><td class="menu"><a href="http://java.prz.edu.pl" target="_blank">Podmenu 12</a></td></tr>
+     </table>
+   </td>
+   <td onmouseover="showMenu('menu2')" onmouseout="hideMenu('menu2')">
+     <div>Menu 2</div>
+     <table class="menu" id="menu2" width="120">
+       <tr><td class="menu"><a href="http://java.prz.edu.pl" target="_blank">Podmenu 21</a></td></tr>
+       <tr><td class="menu"><a href="http://java.prz.edu.pl" target="_blank">Podmenu 22</a></td></tr>
+     </table>
+   </td>
+ </tr>
+</table>
+</body>
+</html>
+

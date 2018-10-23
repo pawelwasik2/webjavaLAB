@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+ a = 20;// globalna (z var i bez var)
+ var b = "100"; // globalna
+function myFunction() {
+   c = 55; // globalna (bez var)
+   var d = 'NO'; // lokalna (bez var globalna)
+  result = a + c;
+  return result;
+}
+  var fun = myFunction();
+  document.write("a = " + a + "<br />");
+  document.write("b = " + b + "<br />");
+  document.write("c = " + c + "<br />");
+  document.write("a + c = ", fun + "<br />");
+  document.write("d = " + d + "<br />"); // ERROR
+</script>
+</html>

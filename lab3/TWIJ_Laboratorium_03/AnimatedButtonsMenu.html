@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>AnimatedButtonsMenu</title>
+<script type="text_javascript">
+function changeButton(buttonID, imageName, statusInfo) {
+  document.images[buttonID].src="./" + imageName;
+  window.status = statusInfo;
+}
+</script>
+</head>
+<body bgcolor="white" onload="javascript:window.alert('Uruchomienie tego przyk³adu wymaga usuniêcia 3 b³êdów !!!')">
+  <a href="strona1.html"
+     onmouseout = "changeButton('button1', 'button1up.gif', '')" 
+     onmouseover = "changeButton('button1','button1down.gif', 'Button 1');
+     return true">
+     <img src="button1up.gif" id="button2" width="105" height="24">
+  </a>
+<br />
+  <a href="strona2.html" onmouseout = "changeButton('button2', 'button2up.gif', '')" 
+     onmouseover = "changeButton('button1','button2down.gif', 'Button 2');
+     return true">
+     <img src="button2up.gif" id="button2" width="105" height="24">
+  </a>
+</body>
+</html>

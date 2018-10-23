@@ -1,0 +1,24 @@
+<html>
+<head><title>Tytu³</title>
+</head>
+<body>
+<p align="center" id="pId">Body <b>text</b></p>
+<script type = "text/javascript">
+  document.write("01-"+document.firstChild + "<br />");
+  document.write("02-"+document.firstChild.firstChild + "<br />");
+  document.write("03-"+document.firstChild.firstChild.firstChild + "<br />");
+  document.write("04-"+document.firstChild.firstChild.firstChild.firstChild + "<br />");
+  document.write("05-"+document.firstChild.childNodes[0] + "<br />");
+  document.write("06-"+document.firstChild.childNodes[0].childNodes[0] + "<br />");
+  document.write("07-"+document.firstChild.childNodes[0].parentNode.firstChild.childNodes[0] + "<br />");
+  document.write("08-"+document.firstChild.firstChild.lastChild + "<br />");
+  document.write("09-"+document.firstChild.childNodes[1] + "<br />");
+  document.write("10-"+document.firstChild.childNodes[1].childNodes[1] + "<br />");
+  document.write("11-"+document.firstChild.childNodes[1].childNodes[1].attributes[0] + "<br />");
+  document.write("12-"+document.firstChild.childNodes[1].childNodes[1].lastChild + "<br />");
+  document.write("13-"+document.firstChild.childNodes[1].childNodes[1].attributes[0].value + "<br />");
+  document.write("14-"+document.getElementsByTagName("p")[0].attributes[0].value + "<br />");
+  document.write("15-"+document.getElementById("pId").attributes[1].value + "<br />");
+</script>
+</body>
+</html>
